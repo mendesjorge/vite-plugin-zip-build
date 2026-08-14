@@ -1,5 +1,5 @@
 {
-    "name": "vite-plugin-zip-build",
+    "name": "vite-plugin-zipbuild",
     "version": "1.0.0",
     "description": "Vite plugin that zips the build output after every build. Cross-platform, zero dependencies.",
     "type": "module",
