@@ -104,7 +104,7 @@ function zipDir(sourceDir, destFile) {
 export default function zipBuildPlugin(zipName, options = {}) {
     const { outDir = 'dist', timestamp = true } = options
     return {
-        name: 'vite-plugin-zip-build',
+        name: 'vite-zip-files-build',
         apply: 'build',
         enforce: 'post',
         closeBundle() {

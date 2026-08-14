@@ -1,16 +1,16 @@
-# vite-plugin-zipbuild
+# vite-zip-files-build
 
 Vite plugin that zips the build output after every build. Cross-platform (Windows, Linux, macOS), zero dependencies — uses only Node.js built-ins.
 
 ## Install
 
 ```bash
-npm install -D vite-plugin-zipbuild
+npm install -D vite-zip-files-build
 
 Usage
 
 // vite.config.js
-import zipBuildPlugin from 'vite-plugin-zipbuild'
+import zipBuildPlugin from 'vite-zip-files-build'
 
 export default {
     plugins: [

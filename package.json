@@ -1,19 +1,19 @@
 {
-    "name": "vite-plugin-zipbuild",
+    "name": "vite-zip-files-build",
     "version": "1.0.0",
     "description": "Vite plugin that zips the build output after every build. Cross-platform, zero dependencies.",
     "type": "module",
     "exports": {
         ".": "./index.js"
     },
-    "keywords": ["vite-plugin", "vite", "zip", "build"],
+    "keywords": ["vite-plugin", "vite", "zip", "build", "files"],
     "author": "MendesJorge",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mendesjorge/vite-plugin-zip-build.git"
+        "url": "https://github.com/mendesjorge/vite-zip-files-build.git"
     },
-    "homepage": "https://github.com/mendesjorge/vite-plugin-zip-build",
+    "homepage": "https://github.com/mendesjorge/vite-zip-files-build",
     "peerDependencies": {
         "vite": ">=5"
     },
